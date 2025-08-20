@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D9D903942E55D29A00611E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D9037D2E55D29900611E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D903842E55D29900611E6B;
+			remoteInfo = TimeSyncApp;
+		};
+		D9D9039E2E55D29A00611E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D9037D2E55D29900611E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D903842E55D29900611E6B;
+			remoteInfo = TimeSyncApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9D903B22E55D3E100611E6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903D32E55D98F00611E6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9D903852E55D29900611E6B /* TimeSyncApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSyncApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D903932E55D29A00611E6B /* TimeSyncAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSyncAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D9039D2E55D29A00611E6B /* TimeSyncAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSyncAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D903B42E55D3E100611E6B /* TimeSyncHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeSyncHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D9D903CD2E55D7BA00611E6B /* Exceptions for "TimeSyncApp" folder in "TimeSyncHelper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TimeSyncXPC.swift,
+			);
+			target = D9D903B32E55D3E100611E6B /* TimeSyncHelper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		D9D903D52E55D9AD00611E6B /* Exceptions for "TimeSyncHelper" folder in "Copy Files" phase from "TimeSyncHelper" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = D9D903B22E55D3E100611E6B /* CopyFiles */;
+			membershipExceptions = (
+				Info.plist,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D9D903872E55D29900611E6B /* TimeSyncApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D9D903CD2E55D7BA00611E6B /* Exceptions for "TimeSyncApp" folder in "TimeSyncHelper" target */,
+			);
+			path = TimeSyncApp;
+			sourceTree = "<group>";
+		};
+		D9D903962E55D29A00611E6B /* TimeSyncAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimeSyncAppTests;
+			sourceTree = "<group>";
+		};
+		D9D903A02E55D29A00611E6B /* TimeSyncAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimeSyncAppUITests;
+			sourceTree = "<group>";
+		};
+		D9D903B52E55D3E100611E6B /* TimeSyncHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D9D903D52E55D9AD00611E6B /* Exceptions for "TimeSyncHelper" folder in "Copy Files" phase from "TimeSyncHelper" target */,
+			);
+			path = TimeSyncHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D903822E55D29900611E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903902E55D29A00611E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D9039A2E55D29A00611E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903B12E55D3E100611E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9D9037C2E55D29900611E6B = {
+			isa = PBXGroup;
+			children = (
+				D9D903872E55D29900611E6B /* TimeSyncApp */,
+				D9D903962E55D29A00611E6B /* TimeSyncAppTests */,
+				D9D903A02E55D29A00611E6B /* TimeSyncAppUITests */,
+				D9D903B52E55D3E100611E6B /* TimeSyncHelper */,
+				D9D903862E55D29900611E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D903862E55D29900611E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D903852E55D29900611E6B /* TimeSyncApp.app */,
+				D9D903932E55D29A00611E6B /* TimeSyncAppTests.xctest */,
+				D9D9039D2E55D29A00611E6B /* TimeSyncAppUITests.xctest */,
+				D9D903B42E55D3E100611E6B /* TimeSyncHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D903842E55D29900611E6B /* TimeSyncApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D903A72E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncApp" */;
+			buildPhases = (
+				D9D903812E55D29900611E6B /* Sources */,
+				D9D903822E55D29900611E6B /* Frameworks */,
+				D9D903832E55D29900611E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D9D903872E55D29900611E6B /* TimeSyncApp */,
+			);
+			name = TimeSyncApp;
+			packageProductDependencies = (
+			);
+			productName = TimeSyncApp;
+			productReference = D9D903852E55D29900611E6B /* TimeSyncApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D903922E55D29A00611E6B /* TimeSyncAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D903AA2E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncAppTests" */;
+			buildPhases = (
+				D9D9038F2E55D29A00611E6B /* Sources */,
+				D9D903902E55D29A00611E6B /* Frameworks */,
+				D9D903912E55D29A00611E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D903952E55D29A00611E6B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D903962E55D29A00611E6B /* TimeSyncAppTests */,
+			);
+			name = TimeSyncAppTests;
+			packageProductDependencies = (
+			);
+			productName = TimeSyncAppTests;
+			productReference = D9D903932E55D29A00611E6B /* TimeSyncAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D9039C2E55D29A00611E6B /* TimeSyncAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D903AD2E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncAppUITests" */;
+			buildPhases = (
+				D9D903992E55D29A00611E6B /* Sources */,
+				D9D9039A2E55D29A00611E6B /* Frameworks */,
+				D9D9039B2E55D29A00611E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D9039F2E55D29A00611E6B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D9D903A02E55D29A00611E6B /* TimeSyncAppUITests */,
+			);
+			name = TimeSyncAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TimeSyncAppUITests;
+			productReference = D9D9039D2E55D29A00611E6B /* TimeSyncAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D9D903B32E55D3E100611E6B /* TimeSyncHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D903B82E55D3E100611E6B /* Build configuration list for PBXNativeTarget "TimeSyncHelper" */;
+			buildPhases = (
+				D9D903B02E55D3E100611E6B /* Sources */,
+				D9D903B12E55D3E100611E6B /* Frameworks */,
+				D9D903B22E55D3E100611E6B /* CopyFiles */,
+				D9D903D32E55D98F00611E6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D9D903B52E55D3E100611E6B /* TimeSyncHelper */,
+			);
+			name = TimeSyncHelper;
+			packageProductDependencies = (
+			);
+			productName = TimeSyncHelper;
+			productReference = D9D903B42E55D3E100611E6B /* TimeSyncHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D9037D2E55D29900611E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D9D903842E55D29900611E6B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D9D903922E55D29A00611E6B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D9D903842E55D29900611E6B;
+					};
+					D9D9039C2E55D29A00611E6B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D9D903842E55D29900611E6B;
+					};
+					D9D903B32E55D3E100611E6B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = D9D903802E55D29900611E6B /* Build configuration list for PBXProject "TimeSyncApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D9037C2E55D29900611E6B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D9D903862E55D29900611E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D903842E55D29900611E6B /* TimeSyncApp */,
+				D9D903922E55D29A00611E6B /* TimeSyncAppTests */,
+				D9D9039C2E55D29A00611E6B /* TimeSyncAppUITests */,
+				D9D903B32E55D3E100611E6B /* TimeSyncHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D903832E55D29900611E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903912E55D29A00611E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D9039B2E55D29A00611E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D903812E55D29900611E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D9038F2E55D29A00611E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903992E55D29A00611E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D903B02E55D3E100611E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D903952E55D29A00611E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D903842E55D29900611E6B /* TimeSyncApp */;
+			targetProxy = D9D903942E55D29A00611E6B /* PBXContainerItemProxy */;
+		};
+		D9D9039F2E55D29A00611E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D903842E55D29900611E6B /* TimeSyncApp */;
+			targetProxy = D9D9039E2E55D29A00611E6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9D903A52E55D29A00611E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9D903A62E55D29A00611E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D9D903A82E55D29A00611E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeSyncApp/TimeSyncApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9D903A92E55D29A00611E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeSyncApp/TimeSyncApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D9D903AB2E55D29A00611E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSyncApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeSyncApp";
+			};
+			name = Debug;
+		};
+		D9D903AC2E55D29A00611E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSyncApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeSyncApp";
+			};
+			name = Release;
+		};
+		D9D903AE2E55D29A00611E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimeSyncApp;
+			};
+			name = Debug;
+		};
+		D9D903AF2E55D29A00611E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sh.TimeSyncAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimeSyncApp;
+			};
+			name = Release;
+		};
+		D9D903B92E55D3E100611E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeSyncHelper/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D9D903BA2E55D3E100611E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeSyncHelper/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D903802E55D29900611E6B /* Build configuration list for PBXProject "TimeSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D903A52E55D29A00611E6B /* Debug */,
+				D9D903A62E55D29A00611E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D903A72E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D903A82E55D29A00611E6B /* Debug */,
+				D9D903A92E55D29A00611E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D903AA2E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D903AB2E55D29A00611E6B /* Debug */,
+				D9D903AC2E55D29A00611E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D903AD2E55D29A00611E6B /* Build configuration list for PBXNativeTarget "TimeSyncAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D903AE2E55D29A00611E6B /* Debug */,
+				D9D903AF2E55D29A00611E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D903B82E55D3E100611E6B /* Build configuration list for PBXNativeTarget "TimeSyncHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D903B92E55D3E100611E6B /* Debug */,
+				D9D903BA2E55D3E100611E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D9037D2E55D29900611E6B /* Project object */;
+}
