@@ -1,6 +1,11 @@
-// main.swift (in TimeSyncHelper group)
+//
+//  main.swift
+//  TimeSyncHelper
+//
+//  Created by sehyun on 8/27/25.
+//
 
 import Foundation
 
-let helper = TimeSyncHelper()
-helper.run()
+print("Hello, World!")
+
